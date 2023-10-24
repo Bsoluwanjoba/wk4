@@ -1,0 +1,109 @@
+main {
+    background-color: linear-gradient(to bottom, silver 40%, white 40%, white 60%, silver 60%, silver 80%);
+}
+.i:hover{
+    filter: blur(3px);
+    cursor: pointer;
+}
+.ii{
+    filter: brightness(200%);
+}
+.iii{
+    filter: drop-shadow(10px 10px 10px black);
+}
+.iv{
+    filter: grayscale(50%);
+}
+.ivv{
+    filter: hue-rotate(150deg);
+}
+.iiv{
+    filter: invert(500%);
+}
+.iiii{
+    filter: opacity(60%);
+}
+.iiv{
+    filter: saturate(50%);
+}
+.ix{
+    filter: sepia(65%);
+}
+
+section{
+    background-image: url(./imagess/wolfgang-hasselmann-ajaYj5GVyE4-unsplash.jpg);
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    }
+h2:hover{
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text1{
+    text-align: center;
+    color: yellow;
+    font-weight: 700;
+    
+    margin-right: 150px;
+    text-decoration: underline;
+    font-size: medium;
+}
+.tt {
+    margin-left: 110px;
+    font-size: 50px;
+    text-decoration: none;
+    filter: drop-shadow(10px 10px 10px black);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.tt1 {
+    margin-left: 190px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+.tt2 {
+    margin-left: 200px;
+    font-size: 50px;
+    text-decoration: none;
+    filter: drop-shadow(10px 10px 10px black);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#images{
+    padding-left: 90px;
+}
+
+.one{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 50px;
+}
+.one:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+.two{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 80px; 
+    }
+.two:hover{
+    color: yellow;
+    text-decoration: underline;
+}
